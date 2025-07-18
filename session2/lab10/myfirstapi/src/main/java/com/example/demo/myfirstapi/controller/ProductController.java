@@ -41,4 +41,5 @@ public class ProductController {
         // newProduct object automatically populated from JSON in request body
         return productRepository.save(newProduct); // Save and return the saved product (with its new ID)
     }
+    //needed an empty constructor for deserialization
 }
